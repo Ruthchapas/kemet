@@ -181,15 +181,15 @@
     background-size: cover;  
 }
 .fondo1{
-    background-image: url("../img/background.png");
+    background-image: url("../img/background.avif");
     background-size: cover;
 }
 .fondo2 {
-    background-image: linear-gradient(rgba(255, 166, 0, 0.097), rgba(255, 166, 0, 0.097)), url("../img/background.png");
+    background-image: linear-gradient(rgba(255, 166, 0, 0.097), rgba(255, 166, 0, 0.097)), url("../img/background.avif");
     background-size: cover;
 }
 .fondo3 {
-    background-image: linear-gradient(#f4ddca94, #f4ddca94), url("../img/background.png");
+    background-image: linear-gradient(#f4ddca94, #f4ddca94), url("../img/background.avif");
     background-size: cover;
 }
 
