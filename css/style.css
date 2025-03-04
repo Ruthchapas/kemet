@@ -80,7 +80,8 @@
     
     img:hover {
         transform: scale(1.1); /* Aumenta el tamaño al 110% cuando se pasa el ratón */
-    }
+    } 
+/* para que aumenten las imagenes cuando pasa por encima el cursor */
     
     p {
         justify-content: center;
@@ -215,6 +216,11 @@
         border-radius:50%;
         width: 50%;
         padding: 3rem;
+        transition: transform 0.3s ease; /* Agregamos la transición */
+        }
+        
+    img:hover {
+            transform: scale(1.1);
     }
 
 }
@@ -237,11 +243,18 @@
     }
 }
 .logo_pie {
-    img {
+     img {
         width: 100px;
         height: 100px;
+        transition: transform 0.3s ease; /* Agregamos la transición */
+        }
+        
+    img:hover {
+            transform: scale(1.1);
     }
 }
+   
+
 .informacion {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
